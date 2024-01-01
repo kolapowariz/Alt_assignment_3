@@ -170,6 +170,7 @@ input {
 .credit {
   margin-left: 50px;
   margin-top: 15px;
+  position: relative;
 }
 .credit > label {
   width: 187px;
@@ -182,6 +183,28 @@ input {
   width: 483px;
   height: 36px;
 }
+#nmc {
+  display: flex;
+  color: #646E7A;
+font-family: Lato;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+  /* background-color: red; */
+  width: 90%;
+  height: 36px;
+  position: absolute;
+  top: 32px;
+  margin-left: 10px;
+}
+#nmc-2{
+  margin-left: 300px;
+}
+#nmc-3{
+  margin-left: 30px;
+}
+
 main > div > form > hr {
   width: 580px;
   height: 0px;
